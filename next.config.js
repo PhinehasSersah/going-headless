@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    domains: ["a.storyblok.com"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
+
